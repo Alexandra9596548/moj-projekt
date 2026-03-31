@@ -2,7 +2,7 @@
 
 Building AI course project
 
-## Summar
+## Summary
 
 Tento projekt využíva umelú inteligenciu na odporúčanie filmov a seriálov na základe nálady, záujmov a preferencií používateľa. Jeho cieľom je uľahčiť výber a spríjemniť rozhodovanie o tom, čo pozerať. Building AI course project..
 
