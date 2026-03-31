@@ -1,0 +1,62 @@
+# Odporúčanie filmov podľa nálady 
+
+Building AI course project
+
+## Summary
+
+Tento projekt využíva umelú inteligenciu na odporúčanie filmov a seriálov podľa nálady a preferencií používateľa. Cieľom je pomôcť rýchlo nájsť vhodný film bez zdĺhavého hľadania. Building AI course project.
+
+## Background
+
+Výber filmu môže byť často zdĺhavý a frustrujúci, pretože je k dispozícii obrovské množstvo možností. Tento projekt sa snaží tento problém vyriešiť a spríjemniť rozhodovanie o tom, čo pozerať.
+
+Problémy, ktoré rieši:
+* Ťažké vybrať vhodný film medzi tisíckami možností
+* Strata času pri scrollovaní a hľadaní
+* Rôzne preferencie používateľov a nálady
+
+## How is it used?
+
+Používateľ zadá svoju aktuálnu náladu alebo preferencie (napr. komédia, romantika, smutný film).  
+AI potom odporučí vhodné filmy alebo seriály na základe týchto vstupov.
+
+Príklad použitia:
+1. Používateľ napíše „chcem niečo smutné“  
+2. AI analyzuje vstup a odporučí filmy so smutným alebo emocionálnym obsahom  
+3. Používateľ si vyberie film a začne sledovať
+
+## Data sources and AI methods
+
+Dáta môžu pochádzať z verejných databáz filmov, ako sú napríklad:
+- [IMDb API](https://www.imdb.com/interfaces/)
+- Verejné filmové rebríčky a dataset-y
+
+Použité AI metódy:
+* **Odporúčacie systémy (Recommender Systems)** – navrhuje filmy na základe preferencií používateľa
+* **Collaborative filtering** – odporúčanie na základe podobných používateľov
+* **Content-based filtering** – odporúčanie na základe vlastností filmov (žáner, herci)
+* **NLP (spracovanie textu)** – pochopenie vstupu používateľa (napr. nálady alebo typ filmu)
+
+## Challenges
+
+Projekt nevyrieši:
+* presnú predikciu vkusov každého používateľa  
+* situácie, kde používateľ zadá nejasný alebo protichodný vstup  
+* úplnú personalizáciu – odporúčania sú len orientačné
+
+Etické aspekty:
+* AI odporúčania môžu byť ovplyvnené kvalitou dát  
+* odporúčania nemusia odrážať všetky kultúrne alebo sociálne preferencie
+
+## What next?
+
+Možnosti rozšírenia projektu:
+* Pridať mobilnú alebo webovú aplikáciu na zdieľanie odporúčaní  
+* Integrácia hodnotení používateľov pre lepšiu presnosť  
+* Personalizované odporúčania podľa histórie sledovania  
+
+## Acknowledgments
+
+* Inšpirácia: kurz Building AI, University of Helsinki a Reaktor Innovations  
+* Dáta: verejné filmové databázy a API (napr. IMDb)  
+
